@@ -20,3 +20,10 @@ To ensure all dependencies are met, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/nav47neet/Inductor_ImageClassification_detectron2_Keysight.git
+
+2. ** INstalling Dependencies**:
+   ```bash
+   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+   pip install 'git+https://github.com/facebookresearch/detectron2.git'
+   pip install labelme jsonmerg
+   ```
